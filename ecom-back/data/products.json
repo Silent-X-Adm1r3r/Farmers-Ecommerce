@@ -1,0 +1,122 @@
+[
+    {
+      "name": "Organic Basmati Rice - 10kg",
+      "price": 45.50,
+      "description": "Premium quality organic basmati rice grown without synthetic fertilizers or pesticides.",
+      "ratings": 4.8,
+      "images": [
+        {
+          "image": "/images/products/rice1.jpg"
+        },
+        {
+          "image": "/images/products/rice2.jpg"
+        }
+      ],
+      "category": "Grains",
+      "seller": "GreenField Farms",
+      "stock": 25
+    },
+    {
+      "name": "Fresh Cow Milk - 5 Liters",
+      "price": 20.00,
+      "description": "Pure, fresh cow milk from grass-fed cows delivered straight from the farm.",
+      "ratings": 4.9,
+      "images": [
+        {
+          "image": "/images/products/milk1.jpg"
+        },
+        {
+          "image": "/images/products/milk2.jpg"
+        }
+      ],
+      "category": "Dairy",
+      "seller": "Happy Cows Dairy",
+      "stock": 15
+    },
+    {
+      "name": "Natural Honey - 500g",
+      "price": 12.75,
+      "description": "Raw, unfiltered honey harvested directly from eco-friendly beehives.",
+      "ratings": 4.7,
+      "images": [
+        {
+          "image": "/images/products/honey1.jpg"
+        },
+        {
+          "image": "/images/products/honey2.jpg"
+        }
+      ],
+      "category": "Sweeteners",
+      "seller": "Bee Haven Farms",
+      "stock": 40
+    },
+    {
+      "name": "Organic Tomatoes - 1kg",
+      "price": 3.25,
+      "description": "Juicy, fresh organic tomatoes grown without chemical pesticides.",
+      "ratings": 4.6,
+      "images": [
+        {
+          "image": "/images/products/tomato1.jpg"
+        },
+        {
+          "image": "/images/products/tomato2.jpg"
+        }
+      ],
+      "category": "Vegetables",
+      "seller": "Sunny Garden",
+      "stock": 50
+    },
+    {
+      "name": "Goat Cheese - 250g",
+      "price": 15.99,
+      "description": "Smooth and creamy farm-fresh goat cheese with a mild flavor.",
+      "ratings": 4.8,
+      "images": [
+        {
+          "image": "/images/products/cheese1.jpg"
+        },
+        {
+          "image": "/images/products/cheese2.jpg"
+        }
+      ],
+      "category": "Dairy",
+      "seller": "Golden Pastures",
+      "stock": 20
+    },
+    {
+      "name": "Free-Range Chicken - 2kg",
+      "price": 25.00,
+      "description": "Tender and healthy free-range chicken raised in humane conditions.",
+      "ratings": 4.9,
+      "images": [
+        {
+          "image": "/images/products/chicken1.jpg"
+        },
+        {
+          "image": "/images/products/chicken2.jpg"
+        }
+      ],
+      "category": "Meat",
+      "seller": "Farm Fresh Poultry",
+      "stock": 30
+    },
+    {
+      "name": "Farm Fresh Eggs - 12 pcs",
+      "price": 6.50,
+      "description": "Healthy, nutritious eggs from free-range hens.",
+      "ratings": 4.7,
+      "images": [
+        {
+          "image": "/images/products/eggs1.jpg"
+        },
+        {
+          "image": "/images/products/eggs2.jpg"
+        }
+      ],
+      "category": "Dairy",
+      "seller": "Eggland Farms",
+      "stock": 60
+    }
+  ]
+  
