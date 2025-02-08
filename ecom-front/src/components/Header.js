@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import Search from './Search';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -9,6 +11,7 @@ export default function Header() {
         
         {/* Logo Section */}
         <div className="navbar-brand">
+          <Link to="/"></Link>
           <a href="/">
             <img width="150px" src="/images/logo.png" alt="Logo" />
           </a>
@@ -16,17 +19,7 @@ export default function Header() {
 
         {/* Search Bar Section */}
         <div className="d-flex flex-grow-1 mx-4">
-          <div className="input-group w-100">
-            <input
-              type="text"
-              id="search_field"
-              className="form-control"
-              placeholder="Enter Product Name ..."
-            />
-            <button id="search_btn" className="btn btn-primary">
-              <i className="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </div>
+          <Search/>
         </div>
 
         {/* Cart Section */}

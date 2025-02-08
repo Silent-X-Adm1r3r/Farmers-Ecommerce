@@ -6,10 +6,7 @@
       "ratings": 4.8,
       "images": [
         {
-          "image": "/images/products/rice1.jpg"
-        },
-        {
-          "image": "/images/products/rice2.jpg"
+          "image": "/images/products/basmati.jpg"
         }
       ],
       "category": "Grains",
@@ -23,10 +20,7 @@
       "ratings": 4.9,
       "images": [
         {
-          "image": "/images/products/milk1.jpg"
-        },
-        {
-          "image": "/images/products/milk2.jpg"
+          "image": "/images/products/milk.jpg"
         }
       ],
       "category": "Dairy",
@@ -40,10 +34,7 @@
       "ratings": 4.7,
       "images": [
         {
-          "image": "/images/products/honey1.jpg"
-        },
-        {
-          "image": "/images/products/honey2.jpg"
+          "image": "/images/products/honey.jpg"
         }
       ],
       "category": "Sweeteners",
@@ -57,10 +48,7 @@
       "ratings": 4.6,
       "images": [
         {
-          "image": "/images/products/tomato1.jpg"
-        },
-        {
-          "image": "/images/products/tomato2.jpg"
+          "image": "/images/products/tomatoes.jpg"
         }
       ],
       "category": "Vegetables",
@@ -74,10 +62,7 @@
       "ratings": 4.8,
       "images": [
         {
-          "image": "/images/products/cheese1.jpg"
-        },
-        {
-          "image": "/images/products/cheese2.jpg"
+          "image": "/images/products/GoatCheese.jpg"
         }
       ],
       "category": "Dairy",
@@ -91,10 +76,7 @@
       "ratings": 4.9,
       "images": [
         {
-          "image": "/images/products/chicken1.jpg"
-        },
-        {
-          "image": "/images/products/chicken2.jpg"
+          "image": "/images/products/chicken.jpg"
         }
       ],
       "category": "Meat",
@@ -108,10 +90,7 @@
       "ratings": 4.7,
       "images": [
         {
-          "image": "/images/products/eggs1.jpg"
-        },
-        {
-          "image": "/images/products/eggs2.jpg"
+          "image": "/images/products/eggs.jpg"
         }
       ],
       "category": "Dairy",
