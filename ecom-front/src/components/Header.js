@@ -4,17 +4,15 @@ import 'font-awesome/css/font-awesome.min.css';
 import Search from './Search';
 import { Link } from 'react-router-dom';
 
-export default function Header() {
+export default function Header({cartItems}) {
   return (
     <nav className="navbar navbar-expand-md bg-dark p-3">
       <div className="container-fluid d-flex align-items-center justify-content-between">
         
         {/* Logo Section */}
         <div className="navbar-brand">
-          <Link to="/"></Link>
-          <a href="/">
-            <img width="150px" src="/images/logo.png" alt="Logo" />
-          </a>
+          <Link to="/">
+            <img width="150px" src="/images/logo.png" alt="Logo" /></Link>
         </div>
 
         {/* Search Bar Section */}
@@ -28,7 +26,7 @@ export default function Header() {
             <i className="fa fa-shopping-cart"></i> Cart
           </span>
           <span className="badge bg-primary ms-1" id="cart_count">
-            2
+            {cartItems.length}
           </span>
         </div>
 

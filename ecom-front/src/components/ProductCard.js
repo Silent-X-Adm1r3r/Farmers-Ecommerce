@@ -3,7 +3,7 @@ export default function ProductCard({product}) {
   return <div className="col-sm-12 col-md-6 col-lg-3 my-3">
   <div className="card p-3 rounded">
     <img
-      alt="Organic Basmati Rice"
+      alt="imgs"
       class="card-img-top mx-auto"
       src={product.images[0].image}
     />

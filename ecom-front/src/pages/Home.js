@@ -5,6 +5,7 @@ import { useSearchParams } from "react-router-dom";
 export default function Home() {
 
   const [products, setProducts] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [searchParams, setSearchParams] = useSearchParams()
 
   useEffect(() => {
