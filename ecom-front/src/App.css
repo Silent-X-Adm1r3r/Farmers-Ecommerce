@@ -71,6 +71,11 @@ nav {
   padding: 1rem 1rem;
 }
 
+.bg-green {
+  background-color: #004d00 !important;
+}
+
+
 #search_btn {
   background-color: #febd69;
 }

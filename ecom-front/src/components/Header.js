@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header({cartItems}) {
   return (
-    <nav className="navbar navbar-expand-md bg-dark p-3">
+    <nav className="navbar navbar-expand-md bg-green p-3">
       <div className="container-fluid d-flex align-items-center justify-content-between">
         
         {/* Logo Section */}
@@ -22,12 +22,14 @@ export default function Header({cartItems}) {
 
         {/* Cart Section */}
         <div className="text-center">
-          <span id="cart" className="ml-3">
-            <i className="fa fa-shopping-cart"></i> Cart
-          </span>
-          <span className="badge bg-primary ms-1" id="cart_count">
-            {cartItems.length}
-          </span>
+          <Link to={"/Cart"}>
+            <span id="cart" className="ml-3">
+            <i className="fa fa-shopping-cart"></i> Cart</span>
+            <span className="badge bg-primary ms-1" id="cart_count">
+              {cartItems.length}
+            </span>
+          </Link>
+            
         </div>
 
       </div>
