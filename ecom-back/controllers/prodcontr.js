@@ -1,4 +1,4 @@
-const ProductModel = require('../models/PModel')
+const PModel = require('../models/PModel')
 
 //Get Products API - /api/v1/products
 exports.getProducts = async (req, res, next) => {
@@ -6,7 +6,7 @@ exports.getProducts = async (req, res, next) => {
         $regex: req.query.keyword,
         $options: 'i'
      }}:{}
-    const products = await ProductModel.find(query);
+    const products = await PModel.find(query);
     
     res.json({
             success: true,
@@ -17,8 +17,9 @@ exports.getProducts = async (req, res, next) => {
 
 //Get Single Product API - /api/v1/product/:id
 exports.getSingleProduct = async (req, res, next) => {
+    
     try {
-        const product = await ProductModel.findById(req.params.id);
+        const product = await PModel.findById(req.params.id).populate('reviews.user','name email');
         res.json({
             success: true,
             product
@@ -30,3 +31,4 @@ exports.getSingleProduct = async (req, res, next) => {
         })
     }
 }
+
